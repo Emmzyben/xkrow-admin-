@@ -11,7 +11,8 @@ node_modules
 dist
 dist-ssr
 *.local
-
+database/xkrow-8372f-firebase-adminsdk-fbsvc-fc688dd8f1.json
+database/firebase_credentials.php
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
