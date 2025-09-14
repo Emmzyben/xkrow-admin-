@@ -7,20 +7,33 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+dist-ssr/
+
+# Local environment
 *.local
-database/xkrow-8372f-firebase-adminsdk-fbsvc-fc688dd8f1.json
+.env
+.env.*        # Ignore all env variants like .env.development, .env.production
+
+# Firebase credentials
+database/*.json
 database/firebase_credentials.php
-# Editor directories and files
+
+# Editor settings
 .vscode/*
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
-.env
+
+# Optional cache folders
+.cache/
+.tmp/
